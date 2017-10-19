@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.2rem;
+  margin: 0.1875em 2% 0.375em; /* 6px 2% 12px */
+}
+
+html {
+  background: #fcfcfc;
+  box-sizing: border-box;
+  font-family: Merriweather, serif;
+  font-size: 62.5%;
+  line-height: 1.5;
+}
+
+input[type="search"] {
+  border: 0.0625em solid #aaa; /* 1px */
+  border-radius: 0.125em; /* 2px */
+  font-size: 1.6rem;
+  margin: 0 2% 0.75em; /* 0 2% 12px */
+  padding: 0.3125em 0.25em; /* 5px 4px */
+  -webkit-appearance: none;
+}
+
+p {
+  font-size: 1.6rem;
+  margin: 0 0 0.75em; /* 0 0 12px */
+}
